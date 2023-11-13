@@ -1,6 +1,6 @@
  //* Brandon Gerber
- //* calories.java
- //* 10/8/2023
+//*  Calories
+ //* 10/13/2023
  //* This program was made to find someone's caloric needs depending on their weight
  //* if they input under 10lbs the system will close out 
  //* The user is also prompted to check whether they are active or not
@@ -47,7 +47,7 @@ public class calories {
        input.close();
     }
 
-    // Function to calculate daily caloric needs based on weight, gender, and activity level
+    // function to calculate daily caloric needs based on weight, gender, and activity level
     public static double calculateCalories(double weight, int gender, int activityLevel) {
         double calories = 0;
 
